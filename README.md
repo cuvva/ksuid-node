@@ -1,6 +1,6 @@
 # ksuid
 
-Generate prefixed, k-sorted globally unique identifiers.
+Generate prefixed, k-sorted globally unique identifiers. You can read more [here](https://www.cuvva.com/product-updates/showing-off-our-fancy-new-ids/ sexy ids)
 
 
 [![NPM Version](https://img.shields.io/npm/v/@cuvva/ksuid.svg?style=flat)](//www.npmjs.org/package/@cuvva/ksuid)
