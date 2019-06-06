@@ -1,0 +1,28 @@
+{
+  "name": "@cuvva/ksuid",
+  "version": "1.0.0",
+  "description": "Generate prefixed, k-sorted globally unique identifiers.",
+  "homepage": "https://github.com/cuvva/ksuid-node",
+  "bugs": "https://github.com/cuvva/ksuid-node/issues",
+  "license": "MIT",
+  "author": "Cuvva (https://cuvva.com)",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cuvva/ksuid-node.git"
+  },
+  "scripts": {
+    "test": "tape test/index.js",
+    "test-travis": "istanbul cover test/index.js --report lcovonly"
+  },
+  "dependencies": {
+    "base-x": "^3.0.5"
+  },
+  "devDependencies": {
+    "mock-os": "0.0.1",
+    "mockdate": "^2.0.2",
+    "tape": "^4.10.2",
+    "coveralls": "^3.0.4",
+    "istanbul": "^0.4.5"
+  }
+}
