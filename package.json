@@ -21,7 +21,7 @@
   "devDependencies": {
     "mock-os": "0.0.1",
     "mockdate": "^2.0.2",
-    "tape": "^4.10.2",
+    "tape": "^5.0.0",
     "coveralls": "^3.0.4",
     "istanbul": "^0.4.5"
   }
