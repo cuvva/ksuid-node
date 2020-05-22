@@ -670,9 +670,9 @@ mock-os@0.0.1:
   integrity sha1-qAohRnpU/RMdIkY0ZIxNd5XuSrY=
 
 mockdate@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/mockdate/-/mockdate-3.0.0.tgz#2901b0deaab4b73072ec799de412d36c903543ec"
-  integrity sha512-asiMT839yFv38PHV9Rm4cBLnrRXlRmcddvuzdKvXygxN2Cw+d96cmMPNJ4JXIHkV/EghuJ9fNG/qzotmLsWDOg==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/mockdate/-/mockdate-3.0.2.tgz#a5a7bb5820da617747af424d7a4dcb22c6c03d79"
+  integrity sha512-ldfYSUW1ocqSHGTK6rrODUiqAFPGAg0xaHqYJ5tvj1hQyFsjuHpuWgWFTZWwDVlzougN/s2/mhDr8r5nY5xDpA==
 
 neo-async@^2.6.0:
   version "2.6.1"
