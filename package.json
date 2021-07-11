@@ -19,7 +19,7 @@
     "base-x": "^3.0.5"
   },
   "devDependencies": {
-    "mock-os": "0.0.1",
+    "mock-os": "0.1.0",
     "mockdate": "^3.0.0",
     "tape": "^5.0.0",
     "coveralls": "^3.0.4",
