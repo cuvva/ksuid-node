@@ -1,5 +1,6 @@
 const mockDate = require('mockdate');
 const mockOs = require('mock-os');
+const mockFs = require('mock-fs');
 const test = require('tape');
 const ksuid = require('..');
 
@@ -172,6 +173,24 @@ test('generating', t => {
 	t.equal(id.sequenceId, 0);
 
 	mockOs.restore();
+	mockDate.reset();
+	t.end();
+});
+
+test('generating in docker', t => {
+	mockFs({
+		'/proc/1/cpuset': '/docker/1558817249e4b287714d29a1b160a66138375c0e4d51b1bb9f185460dbfcadef',
+	});
+
+	const node = new ksuid.Node();
+	const id = node.generate('test');
+
+	t.equal(id.environment, 'prod');
+	t.equal(id.resource, 'test');
+	t.equal(id.instance.scheme, ksuid.Instance.schemes.DOCKER_CONT);
+	t.equal(id.instance.identifier.slice(0, 6).toString('hex'), '1558817249e4');
+
+	mockFs.restore();
 	mockDate.reset();
 	t.end();
 });
