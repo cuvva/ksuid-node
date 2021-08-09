@@ -188,10 +188,9 @@ test('generating in docker', t => {
 	t.equal(id.environment, 'prod');
 	t.equal(id.resource, 'test');
 	t.equal(id.instance.scheme, ksuid.Instance.schemes.DOCKER_CONT);
-	t.equal(id.instance.identifier.slice(0, 6).toString('hex'), '1558817249e4');
+	t.assert(id.instance.identifier.compare(Buffer.from('15588172')) === 0);
 
 	mockFs.restore();
-	mockDate.reset();
 	t.end();
 });
 
