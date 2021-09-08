@@ -1,6 +1,6 @@
 {
   "name": "@cuvva/ksuid",
-  "version": "1.0.2",
+  "version": "1.0.2-beta.2",
   "description": "Generate prefixed, k-sorted globally unique identifiers.",
   "homepage": "https://github.com/cuvva/ksuid-node",
   "bugs": "https://github.com/cuvva/ksuid-node/issues",
