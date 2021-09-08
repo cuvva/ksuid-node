@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "base-x": "^3.0.5",
+    "buffer": "^6.0.3",
     "path-browserify": "^1.0.1"
   },
   "devDependencies": {
