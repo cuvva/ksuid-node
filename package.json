@@ -16,7 +16,8 @@
     "test-travis": "istanbul cover test/index.js --report lcovonly"
   },
   "dependencies": {
-    "base-x": "^3.0.5"
+    "base-x": "^3.0.5",
+    "path-browserify": "^1.0.1"
   },
   "devDependencies": {
     "coveralls": "^3.0.4",
