@@ -24,7 +24,7 @@
     "coveralls": "^3.0.4",
     "istanbul": "^0.4.5",
     "mock-fs": "^5.0.0",
-    "mock-os": "0.0.1",
+    "mock-os": "1.0.0",
     "mockdate": "^3.0.0",
     "tape": "^5.0.0"
   }

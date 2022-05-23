@@ -744,10 +744,10 @@ mock-fs@^5.0.0:
   resolved "https://registry.yarnpkg.com/mock-fs/-/mock-fs-5.0.0.tgz#5574520ac824c01a10091bf951c66f677c71acaa"
   integrity sha512-A5mm/SpSDwwc/klSaEvvKMGQQtiGiQy8UcDAd/vpVO1fV+4zaHjt39yKgCSErFzv2zYxZIUx9Ud/7ybeHBf8Fg==
 
-mock-os@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/mock-os/-/mock-os-0.0.1.tgz#a80a21467a54fd131d224634648c4d7795ee4ab6"
-  integrity sha1-qAohRnpU/RMdIkY0ZIxNd5XuSrY=
+mock-os@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/mock-os/-/mock-os-1.0.0.tgz#19a470d0ab665d0d75cd6730a9a0b5333de656ca"
+  integrity sha512-F2q8Vn6Md1cYN82K+MUMWLTmfs0FJVTjOLwvUPfy1JhFPaRoZ2zqludym9oZGxYLl81elOrIZvinZDvTX/llMg==
 
 mockdate@^3.0.0:
   version "3.0.5"
